@@ -1,1 +1,0 @@
-Analyze Azure resources, cost, and utilization → identify optimization opportunities → provide recommendations and estimated savings

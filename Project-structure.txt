@@ -1,0 +1,28 @@
+Azure-Cost-Optimization-Recommendation-Engine/
+│
+├── README.md
+│
+├── src/
+│   ├── collectors/
+│   │   ├── resource_collector.py
+│   │   ├── cost_collector.py
+│   │   └── metrics_collector.py
+│   │
+│   ├── recommendations/
+│   │   ├── underutilized_vm.py
+│   │   ├── stopped_vm.py
+│   │   ├── unattached_disk.py
+│   │   ├── unused_public_ip.py
+│   │   ├── oversized_vm.py
+│   │   └── cost_increase.py
+│   │
+│   ├── services/
+│   │   ├── cost_service.py
+│   │   ├── resource_service.py
+│   │   └── recommendation_service.py
+│   │
+│   └── main.py
+│
+├── tests/
+│
+└── requirements.txt
